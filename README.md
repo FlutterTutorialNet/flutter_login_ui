@@ -10,6 +10,7 @@ OS: Windows 10
 
 ## Video Tutorial
 
+https://www.youtube.com/watch?v=qLRdQTCFqeU
 
 ## App UI
 1. Splash Screen
