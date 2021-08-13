@@ -17,13 +17,13 @@ OS: Windows 10
 6. OTP Verification Page
 
 ##Screenshots
-![Splash Screen](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/01_SplashScreen.png)
-![Login Form](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/02_Login.png)
-![Registration Form](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/03_Registration.png)
-![Profile Page](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/07_Profile.png)
-![Forgot Password](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/04_ForgetPassword.png)
-![Password Verification](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/05_Verification_1.png)
-![Navigation Drawer](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/08_Drawer.png)
+![Splash Screen](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/01_SplashScreen.png | width=400)
+![Login Form](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/02_Login.png | width=400)
+![Registration Form](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/03_Registration.png | width=400)
+![Profile Page](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/07_Profile.png | width=400)
+![Forgot Password](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/04_ForgetPassword.png | width=400)
+![Password Verification](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/05_Verification_1.png | width=400)
+![Navigation Drawer](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/08_Drawer.png | width=400)
 
 
 ##Resources
