@@ -8,6 +8,9 @@ Dart: 2.13.1
 IDE: Android Studio v4.2.2 provided by Google. 
 OS: Windows 10
 
+## Video Tutorial
+
+
 ## App UI
 1. Splash Screen
 2. Login Form
@@ -17,16 +20,14 @@ OS: Windows 10
 6. OTP Verification Page
 
 ## Screenshots
-<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/01_SplashScreen.png" width="400">
-![Splash Screen](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/01_SplashScreen.png)
-![Login Form](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/02_Login.png)
-![Registration Form](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/03_Registration.png)
-![Profile Page](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/07_Profile.png)
-![Forgot Password](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/04_ForgetPassword.png)
-![Password Verification](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/05_Verification_1.png)
-![Navigation Drawer](https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/08_Drawer.png)
-
-
+<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/01_SplashScreen.png" width="300">
+<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/02_Login.png" width="300">
+<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/03_Registration.png" width="300">
+<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/07_Profile.png" width="300">
+<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/04_ForgetPassword.png" width="300">
+<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/05_Verification_1.png" width="300">
+<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/08_Drawer.png" width="300">
+  
 ## Resources
 1. Website: https://fluttertutorial.net
 2. Youtube: https://www.youtube.com/channel/UCZGkegk6IACFokqgiMRoWCA
