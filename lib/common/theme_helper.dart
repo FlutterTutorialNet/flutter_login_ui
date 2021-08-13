@@ -18,6 +18,16 @@ class ThemeHelper{
     );
   }
 
+  BoxDecoration inputBoxDecorationShaddow() {
+    return BoxDecoration(boxShadow: [
+      BoxShadow(
+        color: Colors.black.withOpacity(0.1),
+        blurRadius: 20,
+        offset: const Offset(0, 5),
+      )
+    ]);
+  }
+
   BoxDecoration buttonBoxDecoration(BuildContext context, [String color1 = "", String color2 = ""]) {
     Color c1 = Theme.of(context).primaryColor;
     Color c2 = Theme.of(context).accentColor;
@@ -56,6 +66,26 @@ class ThemeHelper{
       minimumSize: MaterialStateProperty.all(Size(50, 50)),
       backgroundColor: MaterialStateProperty.all(Colors.transparent),
       shadowColor: MaterialStateProperty.all(Colors.transparent),
+    );
+  }
+
+  AlertDialog alartDialog(String title, String content, BuildContext context) {
+    return AlertDialog(
+      title: Text(title),
+      content: Text(content),
+      actions: [
+        TextButton(
+          child: Text(
+            "OK",
+            style: TextStyle(color: Colors.white),
+          ),
+          style: ButtonStyle(
+              backgroundColor: MaterialStateProperty.all(Colors.black38)),
+          onPressed: () {
+            Navigator.of(context).pop();
+          },
+        ),
+      ],
     );
   }
 

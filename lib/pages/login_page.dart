@@ -1,9 +1,12 @@
 
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_login_ui/common/theme_helper.dart';
 
+import 'forgot_password_page.dart';
 import 'profile_page.dart';
+import 'registration_page.dart';
 import 'widgets/header_widget.dart';
 
 class LoginPage extends StatefulWidget{
@@ -48,19 +51,31 @@ class _LoginPageState extends State<LoginPage>{
                       key: _formKey,
                         child: Column(
                           children: [
-                            TextField(
-                              decoration: ThemeHelper().textInputDecoration('User Name', 'Enter your user name'),
+                            Container(
+                              child: TextField(
+                                decoration: ThemeHelper().textInputDecoration('User Name', 'Enter your user name'),
+                              ),
+                              decoration: ThemeHelper().inputBoxDecorationShaddow(),
                             ),
                             SizedBox(height: 30.0),
-                            TextField(
-                              obscureText: true,
-                              decoration: ThemeHelper().textInputDecoration('Password', 'Enter your password'),
+                            Container(
+                              child: TextField(
+                                obscureText: true,
+                                decoration: ThemeHelper().textInputDecoration('Password', 'Enter your password'),
+                              ),
+                              decoration: ThemeHelper().inputBoxDecorationShaddow(),
                             ),
                             SizedBox(height: 15.0),
                             Container(
                               margin: EdgeInsets.fromLTRB(10,0,10,20),
                               alignment: Alignment.topRight,
-                              child: Text('Forgot your password?'),
+                              child: GestureDetector(
+                                onTap: () {
+                                  Navigator.push( context, MaterialPageRoute( builder: (context) => ForgotPasswordPage()), );
+                                },
+                                child: Text( "Forgot your password?", style: TextStyle( color: Colors.grey, ),
+                                ),
+                              ),
                             ),
                             Container(
                               decoration: ThemeHelper().buttonBoxDecoration(context),
@@ -78,7 +93,22 @@ class _LoginPageState extends State<LoginPage>{
                             ),
                             Container(
                               margin: EdgeInsets.fromLTRB(10,20,10,20),
-                              child: Text('Don\'t have an account? Create'), // Now let's style the forms. For that we will create a theme helper class
+                              //child: Text('Don\'t have an account? Create'),
+                              child: Text.rich(
+                                TextSpan(
+                                  children: [
+                                    TextSpan(text: "Don\'t have an account? "),
+                                    TextSpan(
+                                      text: 'Create',
+                                      recognizer: TapGestureRecognizer()
+                                        ..onTap = (){
+                                          Navigator.push(context, MaterialPageRoute(builder: (context) => RegistrationPage()));
+                                        },
+                                      style: TextStyle(fontWeight: FontWeight.bold, color: Theme.of(context).accentColor),
+                                    ),
+                                  ]
+                                )
+                              ),
                             ),
                           ],
                         )
