@@ -30,10 +30,11 @@ https://www.youtube.com/watch?v=qLRdQTCFqeU
 <img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/08_Drawer.png" width="300">
   
 ## Resources
-1. Website: https://fluttertutorial.net
+1. Website: [Website Article](https://fluttertutorial.net/flutter/flutter-login-ui-full-tutorial-with-source-code)
 2. Youtube: https://www.youtube.com/channel/UCZGkegk6IACFokqgiMRoWCA
-3. Facebook: https://www.facebook.com/Flutter-Tutorial-107192931632122
-4. Source Code: https://github.com/FlutterTutorialNet/flutter_login_ui
+3. Twitter: https://twitter.com/fluttertutoria7
+4. Facebook: https://www.facebook.com/Flutter-Tutorial-107192931632122
+5. Source Code: https://github.com/FlutterTutorialNet/flutter_login_ui
 
 Please give star our GitHub projects and Subscribe to our YouTube Channel for latest video tutorial that will inspire us for more advanced tutorial.
 
