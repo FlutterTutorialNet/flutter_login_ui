@@ -10,7 +10,7 @@ OS: Windows 10
 
 ## Video Tutorial
 
-https://www.youtube.com/watch?v=qLRdQTCFqeU
+https://fluttertutorial.net/s/flutter_login_ui_yt
 
 ## App UI
 1. Splash Screen
