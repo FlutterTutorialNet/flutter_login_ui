@@ -12,6 +12,9 @@ OS: Windows 10
 
 https://fluttertutorial.net/s/flutter_login_ui_yt
 
+## Screenshots
+<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/flutter-login-registration-profile-password-verification-ui-design.png"> 
+
 ## App UI
 1. Splash Screen
 2. Login Form
@@ -20,14 +23,6 @@ https://fluttertutorial.net/s/flutter_login_ui_yt
 5. Forgot Password
 6. OTP Verification Page
 
-## Screenshots
-<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/01_SplashScreen.png" width="300">
-<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/02_Login.png" width="300">
-<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/03_Registration.png" width="300">
-<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/07_Profile.png" width="300">
-<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/04_ForgetPassword.png" width="300">
-<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/05_Verification_1.png" width="300">
-<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/08_Drawer.png" width="300">
   
 ## Resources
 1. Website: [Website Article](https://fluttertutorial.net/flutter/flutter-login-ui-full-tutorial-with-source-code)
