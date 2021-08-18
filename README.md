@@ -13,7 +13,7 @@ OS: Windows 10
 https://fluttertutorial.net/s/flutter_login_ui_yt
 
 ## Screenshots
-<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/flutter-login-registration-profile-password-verification-ui-design.png"> 
+<img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/flutter-login-registration-profile-password-verification-ui-design.jpg"> 
 
 ## App UI
 1. Splash Screen
